@@ -205,7 +205,7 @@
     sticky_history = yes
 
     # Maximum amount of notifications kept in history
-    history_length = 20
+    history_length = 50
 
     ### Misc/Advanced ###
 
@@ -313,6 +313,22 @@
     # Icon for notifications with critical urgency, uncomment to enable
     #new_icon = /path/to/icon
 
+[check what time is it]
+   appname = "notify-send"
+   summary = "Hey there, Chris!"
+   history_ignore = yes
+
+[Caps Lock off]
+   appname= "notify-send"
+   summary= " Caps Lock   off    "
+   history_ignore = yes
+   timeout = 15
+
+[Caps Lock on]
+   appname = "notify-send"
+   summary = " Caps Lock   on     "
+   history_ignore = yes
+   timeout = 15
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
 #
